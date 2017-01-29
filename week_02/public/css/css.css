@@ -185,7 +185,61 @@ footer {
 }
 
 @media screen and (min-width: 1080px) {
-    
+    html {
+        background-color: #ff851b;
+    }
+
+    body>* {
+        width: 1080px;
+        position: relative;
+    }
+
+    header, footer {
+        width: 320px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    footer {
+        padding: 20rem 0 0 1.5rem;
+        font-size: 1.5em;
+    }
+
+    header h2 {
+        line-height: 1.5rem;
+    }
+
+    article h1, article h2, article p {
+        display: none;
+    }
+
+    article {
+        position: relative;
+        float: left;
+        height: 470px;
+        width: 320px;
+        overflow: hidden;
+        margin: 0 1rem 1rem 0;
+    }
+
+    main {
+        position: absolute;
+        top: 1rem;
+        left: 18rem;
+        float: left;
+        overflow: hidden;
+        max-width: 950px;
+        border: red solid 1px;
+    }
+
+    img.cover-img {
+        position: absolute;
+        float: left;
+        width: 320px;
+        height: 470px;
+    }
+
 }
 
 @media screen and (min-width: 1600px) {

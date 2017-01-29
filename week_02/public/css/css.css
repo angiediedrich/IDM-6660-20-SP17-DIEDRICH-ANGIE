@@ -132,7 +132,7 @@ footer {
         font-size: 1.2em;
         line-height: 1.2rem;
         font-weight: bold;
-        }
+    }
 
     article p:after {
         content: none;
@@ -140,7 +140,48 @@ footer {
 }
 
 @media screen and (min-width: 720px) {
-    
+    body>* {
+        width: 720px;
+    }
+
+   .font-scale-up-3 {
+        font-size: 5em;
+        line-height: 3rem;
+    }
+
+    .font-scale-up-2 {
+        font-size: 3.4em;
+        line-height: 3.5rem;
+    }
+
+    .font-scale-up-1 {
+        font-size: 2.25em;
+    }
+
+    .clearfix article {
+        position: relative;
+        border: red 1px solid;
+        padding-bottom: 1rem;
+    }
+
+    article h1, article h2, article p {
+        float: right;
+        width: 54%;
+    }
+
+    article p span {
+        font-size: 1.5em;
+        line-height: 1.4rem;
+        margin-right: 5px;
+    }
+
+    img.cover-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 44%;
+        margin: 0 2rem 2rem 0;
+    }
 }
 
 @media screen and (min-width: 1080px) {

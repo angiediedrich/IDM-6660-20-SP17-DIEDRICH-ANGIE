@@ -106,3 +106,47 @@ article p:hover:after {
 footer {
     margin-bottom: 3rem;
 }
+
+/*Media Queries*/
+@media screen and (min-width: 480px) {
+    body>* {
+        width: 480px;
+    }
+
+   .font-scale-up-3 {
+        font-size: 4em;
+        line-height: 2.4rem;
+    }
+
+    .font-scale-up-2 {
+        font-size: 2.7em;
+        line-height: 2.4rem;
+    }
+
+    .font-scale-up-1 {
+        font-size: 1.75em;
+    }
+
+    article p span {
+        display: block;
+        font-size: 1.2em;
+        line-height: 1.2rem;
+        font-weight: bold;
+        }
+
+    article p:after {
+        content: none;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    
+}
+
+@media screen and (min-width: 1080px) {
+    
+}
+
+@media screen and (min-width: 1600px) {
+    
+}

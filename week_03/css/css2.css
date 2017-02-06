@@ -3,7 +3,6 @@ html {
     line-height: 1rem;
     font-family: sans-serif;
     color: #111;
-    background-image: url("http://www.bentpaddlebrewing.com/reference/images/backgrounds/WoodBartop5Horiz.jpg");
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -57,19 +56,21 @@ body>* {
 }
 
 header {
-
+    margin: 1rem auto 2rem;
+    padding: 1rem;
 }
 
 header h1 {
-
+    margin-bottom: 1rem;
+    text-transform: uppercase;
 }
 
 header h2 {
-
+    font-weight: normal;
 }
 
 article {
-
+    margin-bottom: 4rem;
 }
 
 img.cover-img {
@@ -79,9 +80,28 @@ img.cover-img {
 }
 
 article h2 {
+    margin-bottom: 1rem;
+    line-height: 1rem;
+}
 
+article p span {
+    display: none;
+}
+
+article p:after {
+    content: "Read More...";
+    font-size: 1.5em;
+    color: #FF851B;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+article p:hover:after {
+    color: #111;
+    text-decoration: none;
 }
 
 footer {
-
+    margin-bottom: 3rem;
 }

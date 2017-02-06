@@ -1,5 +1,5 @@
 html {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1rem;
     font-family: sans-serif;
     color: #111;
@@ -15,28 +15,66 @@ html {
     box-sizing: inherit;
 }
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
 body, body * {
-    margin: 0;
-    padding: 0;
     list-style: none;
-    font-size: .666rem;
-    line-height: 1rem;
 }
 
 body>* {
     display: block;
-    width: 300px;
-    margin: 0 auto;
+    max-width: 300px;
 }
+
+body {
+    background-color: hsla(0, 0%, 0%, .5);
+    width: 310px;
+    margin: auto;
+}
+
+.logo-img {
+    max-width: 80px;
+    float: right;
+}
+
+i {
+    float: left;
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.main-nav a {
+    background-color: #124b55;
+    color: white;
+    text-transform: uppercase;
+    line-height: 3rem;
+    padding: .5rem;
+}
+
+.join-paddle-crew {
+    max-width: 100%;
+}
+
+.beers h2 {
+    color: white;
+    background-color: #124b55;
+    text-transform: uppercase;
+    line-height: 2rem;
+    padding: .5rem;
+    text-align: center;
+    font-size: 2em;
+}
+
+.beers img {
+    max-width: 100%;
+}
+
+
+
+
 
 .font-scale-up-3 {
     font-size: 3.375em;
@@ -84,4 +122,8 @@ article h2 {
 
 footer {
 
+}
+
+.visuallyhidden {
+    display: none;
 }

@@ -66,12 +66,15 @@ a {
     padding: 1rem;
 }
 
+/*Beers*/
+
 .beers {
 	padding-top: 1rem;
+	margin-bottom: 3rem;
 
 }
 
-.beers h2, h3 {
+.beers h2, h3, footer {
 	text-align: center;
 }
 
@@ -99,13 +102,26 @@ a {
     padding: .5rem;
 }
 
-footer {
-    font-size: .6rem;
-    padding-top: 3em;
+/*Social*/
+
+.social-icons {
+	background-color: #7c3a00;
+	padding: .1rem;
 }
 
-.social-nav li {
+.social-icons li {
     display: inline;
+}
+
+.social-icons img {
+	width: 40px;
+
+}
+
+/*Footer*/
+
+footer {
+    font-size: .75rem;
 }
 
 .visuallyhidden {

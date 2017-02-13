@@ -74,7 +74,7 @@ a {
 
 }
 
-.beers h2, h3, footer {
+.beers h2, h3, .social-nav ul, footer {
 	text-align: center;
 }
 
@@ -114,8 +114,11 @@ a {
 }
 
 .social-icons img {
-	width: 40px;
+	width: 45px;
+}
 
+.social-nav ul {
+	padding: 0;
 }
 
 /*Footer*/

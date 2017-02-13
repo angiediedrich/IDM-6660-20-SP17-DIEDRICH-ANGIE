@@ -1,0 +1,15 @@
+Here I will bullet point the items that I updated for my Bent Paddle Mobile First Design.  They include:
+ - Increasing the fonts throughout the site and the logo was increased to 100% of the width of the body.
+ - Padding, margin, line-height, and letter-spacing were all increased to allow for better readability.
+ - Wood background was adjusted so that it won't interfere with the readability of the site.  It now contrasts more and the content has the main focus.
+ - Removed the Paddle Crew information from the site.  
+ - Added Hours, Location, Phone Number and email to the bottom of the page for easy access.
+ - Removed Max-Width from body tag.
+ - Updated Typography by adding a google font close to the original font on the site, plus switched between that and the serif type that the site also uses.
+ - Added a class to the social icons for easy adjusting.
+ - Added more beers.
+ - Added beer names as headers.
+
+Things I didn't act on:
+- I decided not to include more information like IBU and ABV to the home page beers.  I would like that to be on a different page where i could have a consistant table like on the website showing a lot of different info.  I just felt that adding it would be too much for a home page.
+- I tried to crop the image, but I wasn't able to do it that was as aesthetically consistant with the regular site.  So I decided to adjust the exposure of the original instead.  I am hoping that there is now enough contrast for the content to really stand out.

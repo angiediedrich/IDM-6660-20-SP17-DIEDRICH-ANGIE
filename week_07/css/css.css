@@ -1,0 +1,208 @@
+/*Globals*/
+
+html {
+    font-size: 16px;
+    line-height: 1rem;
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body, body * {
+    list-style: none;
+}
+
+body>* {
+    display: block;
+}
+
+body {
+    width: 300px;
+    color: white;
+    letter-spacing: .2em;
+    margin: auto;
+}
+
+/* MOBILE */
+body {
+    width: 300px;
+}
+
+/* TABLET */
+@media screen and (min-width:640px) {
+    body {
+        width: 300px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:1024px) {
+    body {
+        width: 300px;
+    }
+}
+
+/*Top Bar - Navigation and Phone Icon*/
+.top-bar {
+    background-color: #000;
+    position: absolute;
+    overflow: auto;
+    width: 300px;
+}
+
+.reservation {
+    font-size: 10px;
+    float: right;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.reservation p {
+    padding: 0;
+    margin: 0;
+}
+.phone {
+    float: left;
+}
+
+.phone-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 10px 10px;
+}
+
+i {
+    margin-left: 275px;
+    border: red solid 1px;
+}
+
+
+/*Logo and Feature Section*/
+.feature-section {
+    border: yellow solid 1px;
+}
+
+img {
+    width: 300px;
+}
+
+
+
+
+
+
+/*Fonts*/
+
+a, .beers h3, .beers p, .hours-location {
+    font-family: serif;
+}
+
+/*Navigation + Buttons*/
+
+.logo-img {
+    width: 100%;
+}
+
+i {
+    position: fixed;
+    top: 1rem;
+    left: 5rem;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.main-nav a, .beers h3, .hours-location {
+	background-color: #124b55;
+}
+
+.main-nav a {
+	line-height: 4rem;
+    padding: 1rem;
+}
+
+/*Beers*/
+
+.beers {
+	padding-top: 1rem;
+	margin-bottom: 3rem;
+
+}
+
+.beers h2, h3, .social-nav ul, .hours-location, footer {
+	text-align: center;
+}
+
+.beers h2, .beer-desc  {
+	background-color: #e9e9e9;
+}
+
+.beers h2 {
+    color: #7c3a00;
+    line-height: 3rem;
+    font-size: 2em;
+}
+
+.beers h3 {
+	padding: .6rem;
+	margin: 1rem 0 0 0;
+}
+
+.beers img {
+    max-width: 100%;
+}
+
+.beer-desc {
+    color: #124b55;
+    letter-spacing: .05rem;
+    line-height: 1.3rem;
+    padding: .5rem;
+}
+
+/*Hours + Location*/
+
+.hours-location {
+	font-size: .8rem;
+	padding: .5rem;
+	margin-bottom: 1rem;
+}
+
+/*Social*/
+
+.social-icons {
+	background-color: #7c3a00;
+	padding: .1rem;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons img {
+	width: 45px;
+}
+
+.social-nav ul {
+	padding: 0;
+}
+
+/*Footer*/
+
+footer {
+    font-size: .75rem;
+    padding-bottom: .5rem;
+}
+
+.visuallyhidden {
+    display: none;
+}

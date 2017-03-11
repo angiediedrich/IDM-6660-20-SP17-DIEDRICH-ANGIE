@@ -1,0 +1,169 @@
+/*Globals*/
+
+html {
+    font-size: 16px;
+    line-height: 1rem;
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body, body * {
+    list-style: none;
+}
+
+body>* {
+    display: block;
+}
+
+body {
+    width: 300px;
+    color: white;
+    letter-spacing: .2em;
+    margin: auto;
+}
+
+/* MOBILE */
+body {
+    width: 300px;
+}
+
+/* TABLET */
+@media screen and (min-width:640px) {
+    body {
+        width: 300px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:1024px) {
+    body {
+        width: 300px;
+    }
+}
+
+/*Top Bar - Navigation and Phone Icon*/
+.top-bar {
+    background-color: #000;
+    position: absolute;
+    overflow: auto;
+    width: 300px;
+}
+
+.reservation {
+    font-size: 10px;
+    float: right;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.reservation p {
+    padding: 0;
+    margin: 0;
+}
+
+.phone {
+    float: left;
+}
+
+.phone-img {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 10px 10px;
+}
+
+i {
+    float: right;
+    padding-right: 10px;
+}
+
+
+/*Logo and Feature Section*/
+.feature-section {
+    padding-top: 60px;
+}
+
+.logo-img {
+    padding: 15px 30px;
+    background-color: #2d3a4b;
+}
+
+/*Navigation with Images*/
+.main-body {
+    margin-top: 10px;
+}
+
+.feature-img {
+    display: none;
+}
+
+a h2 {
+    background-color: black;
+    padding: 23px 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Fjalla', sans-serif;
+    letter-spacing: 1.2px;
+    font-size: 25px;
+}
+
+/*Navigation w/out Images*/
+.no-image-nav {
+    margin: 10px 0;
+}
+
+.no-image-nav h2 {
+    margin-bottom: 5px;
+    padding: 15px 0;
+} 
+
+
+img {
+    width: 300px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Social*/
+
+.social-icons {
+	padding: .1rem;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons img {
+	width: 45px;
+}
+
+.social-nav ul {
+	padding: 0;
+}
+
+/*Footer*/
+
+footer {
+    background-image: url(../img/wood_bg.jpeg);
+}
+
+.copyright {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 30px 0;
+}
+
+.visuallyhidden {
+    display: none;
+}

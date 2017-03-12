@@ -1,0 +1,190 @@
+/*Globals*/
+
+html {
+    font-size: 16px;
+    line-height: 1rem;
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body, body * {
+    list-style: none;
+}
+
+body>* {
+    display: block;
+}
+
+body {
+    width: 18.75em;
+    color: white;
+    letter-spacing: .2em;
+    margin: auto;
+}
+
+img {
+    width: 300px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* MOBILE */
+body {
+    width: 18.75em;
+}
+
+/* TABLET */
+@media screen and (min-width:640px) {
+    body {
+        width: 300px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width:1024px) {
+    body {
+        width: 300px;
+    }
+}
+
+.reservation p, .address p, .copyright p {
+    padding: 0;
+    margin: 0;
+}
+
+i, .reservation {
+    float: right;
+}
+
+.reservation, a h2, .social-nav ul, .address p, .copyright {
+    text-align: center;
+}
+
+/*Top Bar - Navigation and Phone Icon*/
+.top-bar {
+    background-color: #000;
+    position: absolute;
+    overflow: auto;
+    width: 18.75em;
+}
+
+.reservation {
+    font-size: .625em;
+    padding: .3125em 0;
+}
+
+.phone {
+    float: left;
+}
+
+.phone-img {
+    width: 3.125em;
+    height: 3.125em;
+    margin: 0 0 .625em .625em;
+}
+
+i {
+    padding-right: .625em;
+}
+
+
+/*Logo and Feature Section*/
+.feature-section {
+    padding-top: 3.75em;
+}
+
+.logo-img {
+    padding: 1em 1.875em;
+    background-color: #2d3a4b;
+}
+
+/*Navigation with Images*/
+.main-body {
+    margin-top: 10px;
+}
+
+.feature-img {
+    display: none;
+}
+
+a h2 {
+    background-color: black;
+    padding: 1.4375em 0;
+    margin: 0;
+    font-family: 'Fjalla', sans-serif;
+    letter-spacing: .0075em;
+    font-size: 1.5625em;
+}
+
+/*Navigation w/out Images*/
+.no-image-nav {
+    margin: .625em 0;
+}
+
+.no-image-nav h2 {
+    margin-bottom: .3125em;
+    padding: 1em 0;
+}
+
+/*Social*/
+
+.social-icons {
+	padding: .1rem;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons img {
+	width: 3.75em;
+    margin: .625em;
+}
+
+.social-nav ul {
+	padding: 0;
+}
+
+/*Footer*/
+
+footer {
+    background-image: url(../img/wood_bg.jpeg);
+}
+
+.address {
+    padding: 3.125em 0;
+}
+
+.address p {
+    font-size: .875em;
+    letter-spacing: .0625em;
+    line-height: 1.4em;
+}
+
+.copyright {
+    font-size: .6875em;
+    padding-bottom: 1.25em;
+}
+
+.copyright p {
+    letter-spacing: .0875em;
+}
+
+.visuallyhidden {
+    display: none;
+}

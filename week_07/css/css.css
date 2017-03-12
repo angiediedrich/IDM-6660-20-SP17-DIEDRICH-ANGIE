@@ -24,15 +24,28 @@ body>* {
 }
 
 body {
-    width: 300px;
+    width: 18.75em;
     color: white;
     letter-spacing: .2em;
     margin: auto;
 }
 
+img {
+    width: 300px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* MOBILE */
 body {
-    width: 300px;
+    width: 18.75em;
 }
 
 /* TABLET */
@@ -49,24 +62,30 @@ body {
     }
 }
 
+.reservation p, .address p, .copyright p {
+    padding: 0;
+    margin: 0;
+}
+
+i, .reservation {
+    float: right;
+}
+
+.reservation, a h2, .social-nav ul, .address p, .copyright {
+    text-align: center;
+}
+
 /*Top Bar - Navigation and Phone Icon*/
 .top-bar {
     background-color: #000;
     position: absolute;
     overflow: auto;
-    width: 300px;
+    width: 18.75em;
 }
 
 .reservation {
-    font-size: 10px;
-    float: right;
-    padding: 5px 0;
-    text-align: center;
-}
-
-.reservation p {
-    padding: 0;
-    margin: 0;
+    font-size: .625em;
+    padding: .3125em 0;
 }
 
 .phone {
@@ -74,24 +93,23 @@ body {
 }
 
 .phone-img {
-    width: 50px;
-    height: 50px;
-    margin: 0 0 10px 10px;
+    width: 3.125em;
+    height: 3.125em;
+    margin: 0 0 .625em .625em;
 }
 
 i {
-    float: right;
-    padding-right: 10px;
+    padding-right: .625em;
 }
 
 
 /*Logo and Feature Section*/
 .feature-section {
-    padding-top: 60px;
+    padding-top: 3.75em;
 }
 
 .logo-img {
-    padding: 15px 30px;
+    padding: 1em 1.875em;
     background-color: #2d3a4b;
 }
 
@@ -106,32 +124,21 @@ i {
 
 a h2 {
     background-color: black;
-    padding: 23px 0;
+    padding: 1.4375em 0;
     margin: 0;
-    text-align: center;
     font-family: 'Fjalla', sans-serif;
-    letter-spacing: 1.2px;
-    font-size: 25px;
+    letter-spacing: .0075em;
+    font-size: 1.5625em;
 }
 
 /*Navigation w/out Images*/
 .no-image-nav {
-    margin: 10px 0;
+    margin: .625em 0;
 }
 
 .no-image-nav h2 {
-    margin-bottom: 5px;
-    padding: 15px 0;
-} 
-
-
-img {
-    width: 300px;
-}
-
-a {
-    color: white;
-    text-decoration: none;
+    margin-bottom: .3125em;
+    padding: 1em 0;
 }
 
 /*Social*/
@@ -145,13 +152,12 @@ a {
 }
 
 .social-icons img {
-	width: 60px;
-    margin: 10px;
+	width: 3.75em;
+    margin: .625em;
 }
 
 .social-nav ul {
 	padding: 0;
-    text-align: center;
 }
 
 /*Footer*/
@@ -160,10 +166,23 @@ footer {
     background-image: url(../img/wood_bg.jpeg);
 }
 
+.address {
+    padding: 3.125em 0;
+}
+
+.address p {
+    font-size: .875em;
+    letter-spacing: .0625em;
+    line-height: 1.4em;
+}
+
 .copyright {
-    font-size: 12px;
-    line-height: 18px;
-    margin: 30px 0;
+    font-size: .6875em;
+    padding-bottom: 1.25em;
+}
+
+.copyright p {
+    letter-spacing: .0875em;
 }
 
 .visuallyhidden {

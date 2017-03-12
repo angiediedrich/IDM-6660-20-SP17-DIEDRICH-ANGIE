@@ -145,11 +145,13 @@ a {
 }
 
 .social-icons img {
-	width: 45px;
+	width: 60px;
+    margin: 10px;
 }
 
 .social-nav ul {
 	padding: 0;
+    text-align: center;
 }
 
 /*Footer*/

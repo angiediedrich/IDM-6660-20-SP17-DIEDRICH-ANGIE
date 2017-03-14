@@ -1,0 +1,45 @@
+/***************Desktop****************/
+@media screen and (min-width: 1024px) {
+    /*Top Bar + Navigation*/
+    .desktop, .reserve {
+        display: inline;
+    }
+
+    .desktop a {
+        float: right;
+        padding: .5rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .tablet-container, .tablet-contact {
+        display: none;
+    }
+    
+    /*Logo and Feature Section*/
+    .logo-img {
+        max-width: 580px;
+        padding-top: 4%;
+    }
+
+    .tagline {
+        margin-left: 17%;
+    }
+
+    /*Main Body*/
+    .no-image-nav {
+        display: none;
+    }
+
+   blockquote {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+    .reserve p {
+        padding: .75rem;
+        font-size: 1.3em;
+    }
+}

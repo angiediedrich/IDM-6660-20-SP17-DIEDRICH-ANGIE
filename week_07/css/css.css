@@ -24,7 +24,6 @@ body>* {
 }
 
 body {
-    width: 18.75em;
     color: white;
     letter-spacing: .2em;
     margin: auto;
@@ -43,198 +42,204 @@ a:hover {
     text-decoration: underline;
 }
 
-/* MOBILE */
-@media screen and (max-width: 300px) {
-    body {
-        width: 18.75em;
-    }
+/*These are some I combined to cutback on lines*/
 
-    .reservation p, .address p, .copyright p {
-        padding: 0;
-        margin: 0;
-    }
-
-    i, .reservation {
-        float: right;
-    }
-
-    .reservation, a h2, .social-nav ul, .address p, .copyright {
-        text-align: center;
-    }
-
-    /*Top Bar - Navigation and Phone Icon*/
-    .top-bar {
-        background-color: #000;
-        position: absolute;
-        overflow: auto;
-        width: 18.75em;
-    }
-
-    .reservation {
-        font-size: .625em;
-        padding: .3125em 0;
-    }
-
-    .phone {
-        float: left;
-    }
-
-    .phone-img {
-        width: 3.125em;
-        height: 3.125em;
-        margin: 0 0 .625em .625em;
-    }
-
-    i {
-        padding-right: .625em;
-    }
-
-    /*Logo and Feature Section*/
-    .feature-section {
-        padding-top: 3.75em;
-    }
-
-    .logo-img {
-        padding: 1em 1.875em;
-        background-color: #2d3a4b;
-    }
-
-    /*Navigation with Images*/
-    .main-body {
-        margin-top: 10px;
-    }
-
-    .feature-img {
-        display: none;
-    }
-
-    a h2 {
-        background-color: black;
-        padding: 1.4375em 0;
-        margin: 0;
-        font-family: 'Fjalla', sans-serif;
-        letter-spacing: .0075em;
-        font-size: 1.5625em;
-    }
-
-    /*Navigation w/out Images*/
-    .no-image-nav {
-        margin: .625em 0;
-    }
-
-    .no-image-nav h2 {
-        margin-bottom: .3125em;
-        padding: 1em 0;
-    }
-
-    /*Social*/
-
-    .social-icons {
-    	padding: .1rem;
-    }
-
-    .social-icons li {
-        display: inline;
-    }
-
-    .social-icons img {
-    	width: 3.75em;
-        margin: .625em;
-    }
-
-    .social-nav ul {
-    	padding: 0;
-    }
-
-    /*Footer*/
-
-    footer {
-        background-image: url(../img/wood_bg.jpeg);
-    }
-
-    .address {
-        padding: 3.125em 0;
-    }
-
-    .address p {
-        font-size: .875em;
-        letter-spacing: .0625em;
-        line-height: 1.4em;
-    }
-
-    .copyright {
-        font-size: .6875em;
-        padding-bottom: 1.25em;
-    }
-
-    .copyright p {
-        letter-spacing: .0875em;
-    }
-
-    .visuallyhidden, .tagline, .tablet, .desktop {
-        display: none;
-    }
+.reservation p, .address p, .copyright p {
+    padding: 0;
+    margin: 0;
 }
-/*Media Queries*/
 
-/* TABLET */
-@media screen and (min-width: 768px) {
-    body>* {
-        width: 48rem;
-    }
+i, .reservation {
+    float: right;
+}
 
+.reservation, a h2, .social-nav ul, .address p, .copyright, .reserve p, blockquote {
+    text-align: center;
+}
+
+.feature-section, .no-image-nav, .feature-section  {
+    position: relative;
+}
+
+.visuallyhidden, .tagline, .tablet, .desktop, .reserve, .feature-img {
+    display: none;
+}
+
+a h2, .reserve p {
+    background-color: black;
+    margin: 0;
+}
+
+/**************** Mobile First *******************/
 /*Top Bar - Navigation and Phone Icon*/
-    .tablet, .tagline, .feature-img {
-        display: unset;
-    }
+.top-bar {
+    background-color: #000;
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+}
 
-    .mobile, .phone img, .main-nav i {
-        display: none;
-    }
-    .top-bar {
-        position: absolute;
-        overflow: auto;
-        width: 100%;
-        height: 4rem;
-    }
+.reservation {
+    font-size: .625rem;
+    padding: .3125rem 0;
+}
 
-    .reservation {
-        font-size: .625em;
-    }
+.phone {
+    float: left;
+}
 
-    .phone {
-        float: left;
-        margin-left: 1rem;
-    }
+.phone-img {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 0 0 .625rem .625rem;
+}
 
-    .main-nav {
-        margin-top: .75rem;
-    }
-
-    .main-nav li {
-        display: inline;
-    }
-
-    .main-nav a {
-        padding: 1rem;
-    }
+i {
+    padding: .5rem .625rem 0 0;
 }
 
 /*Logo and Feature Section*/
+.feature-section {
+    padding-top: 3.75rem;
+}
+
+.logo-img {
+    padding: 1rem 1.875rem;
+    background-color: #2d3a4b;
+    width: 100%;
+}
+
+/*Navigation with Images*/
+.main-body {
+    margin-top: 10px;
+}
+
+a h2 {
+    padding: 1rem 0;
+    font-family: 'Fjalla', sans-serif;
+    letter-spacing: .007em;
+    font-size: 1.4rem;
+}
+
+/*Navigation w/out Images*/
+.no-image-nav {
+    margin: .625rem 0;
+}
+
+.no-image-nav h2 {
+    margin-bottom: .3125rem;
+    padding: 1rem 0;
+}
+
+/*Social*/
+
+.social-icons {
+	padding: .1rem;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons img {
+	width: 3.75rem;
+    margin: .625rem;
+}
+
+.social-nav ul {
+	padding: 0;
+}
+
+/*Footer*/
+
+footer {
+    background-image: url(../img/wood_bg.jpeg);
+}
+
+.address {
+    padding: 3.125rem 0;
+}
+
+.address p {
+    font-size: .875em;
+    letter-spacing: .0625em;
+    line-height: 1.4rem;
+}
+
+.copyright {
+    font-size: .6875em;
+    padding-bottom: 1.25rem;
+}
+
+.copyright p {
+    letter-spacing: .0875em;
+}
+
+/***********************************MEDIA QUERIES**************************************/
+/*********** TABLET ************/
+@media screen and (min-width: 768px) {
+    body>* {
+        width: 100%;
+    }
+
+    /*Top Bar - Navigation and Phone Icon*/
+    .tablet, .tagline, .feature-img {
+        display: inline;
+    }
+
+    .mobile, .phone img, .main-nav i, .reserve {
+        display: none;
+    }
+
+    .tablet-container {
+        margin-left: 10rem;
+    }
+
+    .tablet a {
+        float: right;
+        padding: .5rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .tablet-contact {
+        margin-top: 1rem;
+        padding-left: 2rem;
+    }
+
+    .border-nav {
+        border-left: white solid 1px;
+    }
+
+    /*Logo and Feature Section*/
+    .tagline {
+        position: absolute;
+        margin: 30% 10%;
+        text-align: center;
+        font-family: "Gill Sans", sans-serif;
+        text-transform: uppercase;
+    }
+
+    .tagline, blockquote {
+        font-family: "Gill Sans", sans-serif;
+    }
+
+    .tagline p {
+        margin: .5rem;
+    }
+
     .logo-img {
         position: absolute;
         background: none;
+        width: 52%;
+        padding-top: 2rem;
     }
 
     .feature-img {
         width: 100%;
+        margin-top: 0;
     }
 
-    .feature-section {
-        position: relative;
-    }
-
-/*Navigation with Images*/
+    /*Navigation with Images*/
     .main-body article {
         float: left;
         width: 32%;
@@ -243,15 +248,11 @@ a:hover {
     }
 
     .main-body img {
-        height: 9.375rem;
+        height: 100%;
         width: 100%;
     }
 
-/*Navigation w/out Images*/
-    .no-image-nav {
-        position: relative;
-    }
-
+    /*Navigation w/out Images*/
     .no-image-nav a {
         float: left;
         width: 30%;
@@ -259,27 +260,68 @@ a:hover {
         text-align: center;
     }
 
-/*Social*/
+    /*Social*/
     .social-icons img {
-        width: 4em;
-        margin: 2em;
+        width: 4rem;
+        margin: 2rem;
     }
 
     .social-nav ul {
         padding: 0;
     }
 
-/*Footer*/
+    /*Footer*/
     footer {
-        margin-top: 6rem;
         padding-top: 2rem;
         width: 100%;
+        overflow: hidden;
     }
 }
 
-/* DESKTOP */
-@media screen and (min-width:1024px) {
-    body {
-        width: 1024px;
+/***************Desktop****************/
+@media screen and (min-width: 1024px) {
+    /*Top Bar + Navigation*/
+    .desktop, .reserve {
+        display: inline;
+    }
+
+    .desktop a {
+        float: right;
+        padding: .5rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .tablet-container, .tablet-contact {
+        display: none;
+    }
+    
+    /*Logo and Feature Section*/
+    .logo-img {
+        max-width: 580px;
+        padding-top: 4%;
+    }
+
+    .tagline {
+        margin-left: 17%;
+    }
+
+    /*Main Body*/
+    .no-image-nav {
+        display: none;
+    }
+
+   blockquote {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+    .reserve p {
+        padding: .75rem;
+        font-size: 1.3em;
     }
 }
+
+https://github.com/angiediedrich/IDM-6660-20-SP17-DIEDRICH-ANGIE

@@ -1,0 +1,101 @@
+/*********** TABLET ************/
+@media screen and (min-width: 768px) {
+    body>* {
+        width: 100%;
+    }
+
+    /*Top Bar - Navigation and Phone Icon*/
+    .tablet, .tagline, .feature-img {
+        display: inline;
+    }
+
+    .mobile, .phone img, .main-nav i, .reserve {
+        display: none;
+    }
+
+    .tablet-container {
+        margin-left: 10rem;
+    }
+
+    .tablet a {
+        float: right;
+        padding: .5rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .tablet-contact {
+        margin-top: 1rem;
+        padding-left: 2rem;
+    }
+
+    .border-nav {
+        border-left: white solid 1px;
+    }
+
+    /*Logo and Feature Section*/
+    .tagline {
+        position: absolute;
+        margin: 30% 10%;
+        text-align: center;
+        font-family: "Gill Sans", sans-serif;
+        text-transform: uppercase;
+    }
+
+    .tagline, blockquote {
+        font-family: "Gill Sans", sans-serif;
+    }
+
+    .tagline p {
+        margin: .5rem;
+    }
+
+    .logo-img {
+        position: absolute;
+        background: none;
+        width: 52%;
+        padding-top: 2rem;
+    }
+
+    .feature-img {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    /*Navigation with Images*/
+    .main-body article {
+        float: left;
+        width: 32%;
+        margin: 5px;
+        font-size: .8em;
+    }
+
+    .main-body img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*Navigation w/out Images*/
+    .no-image-nav a {
+        float: left;
+        width: 30%;
+        margin-left: 1.2rem;
+        text-align: center;
+    }
+
+    /*Social*/
+    .social-icons img {
+        width: 4rem;
+        margin: 2rem;
+    }
+
+    .social-nav ul {
+        padding: 0;
+    }
+
+    /*Footer*/
+    footer {
+        padding-top: 2rem;
+        width: 100%;
+        overflow: hidden;
+    }
+}

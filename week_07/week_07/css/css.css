@@ -1,0 +1,327 @@
+/*Globals*/
+
+html {
+    font-size: 16px;
+    line-height: 1rem;
+    font-family: sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body, body * {
+    list-style: none;
+}
+
+body>* {
+    display: block;
+}
+
+body {
+    color: white;
+    letter-spacing: .2em;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*These are some I combined to cutback on lines*/
+
+.reservation p, .address p, .copyright p {
+    padding: 0;
+    margin: 0;
+}
+
+i, .reservation {
+    float: right;
+}
+
+.reservation, a h2, .social-nav ul, .address p, .copyright, .reserve p, blockquote {
+    text-align: center;
+}
+
+.feature-section, .no-image-nav, .feature-section  {
+    position: relative;
+}
+
+.visuallyhidden, .tagline, .tablet, .desktop, .reserve, .feature-img {
+    display: none;
+}
+
+a h2, .reserve p {
+    background-color: black;
+    margin: 0;
+}
+
+/**************** Mobile First *******************/
+/*Top Bar - Navigation and Phone Icon*/
+.top-bar {
+    background-color: #000;
+    position: absolute;
+    overflow: auto;
+    width: 100%;
+}
+
+.reservation {
+    font-size: .625rem;
+    padding: .3125rem 0;
+}
+
+.phone {
+    float: left;
+}
+
+.phone-img {
+    width: 3.125rem;
+    height: 3.125rem;
+    margin: 0 0 .625rem .625rem;
+}
+
+i {
+    padding: .5rem .625rem 0 0;
+}
+
+/*Logo and Feature Section*/
+.feature-section {
+    padding-top: 3.75rem;
+}
+
+.logo-img {
+    padding: 1rem 1.875rem;
+    background-color: #2d3a4b;
+    width: 100%;
+}
+
+/*Navigation with Images*/
+.main-body {
+    margin-top: 10px;
+}
+
+a h2 {
+    padding: 1rem 0;
+    font-family: 'Fjalla', sans-serif;
+    letter-spacing: .007em;
+    font-size: 1.4rem;
+}
+
+/*Navigation w/out Images*/
+.no-image-nav {
+    margin: .625rem 0;
+}
+
+.no-image-nav h2 {
+    margin-bottom: .3125rem;
+    padding: 1rem 0;
+}
+
+/*Social*/
+
+.social-icons {
+	padding: .1rem;
+}
+
+.social-icons li {
+    display: inline;
+}
+
+.social-icons img {
+	width: 3.75rem;
+    margin: .625rem;
+}
+
+.social-nav ul {
+	padding: 0;
+}
+
+/*Footer*/
+
+footer {
+    background-image: url(../img/wood_bg.jpeg);
+}
+
+.address {
+    padding: 3.125rem 0;
+}
+
+.address p {
+    font-size: .875em;
+    letter-spacing: .0625em;
+    line-height: 1.4rem;
+}
+
+.copyright {
+    font-size: .6875em;
+    padding-bottom: 1.25rem;
+}
+
+.copyright p {
+    letter-spacing: .0875em;
+}
+
+/***********************************MEDIA QUERIES**************************************/
+/*********** TABLET ************/
+@media screen and (min-width: 768px) {
+    body>* {
+        width: 100%;
+    }
+
+    /*Top Bar - Navigation and Phone Icon*/
+    .tablet, .tagline, .feature-img {
+        display: inline;
+    }
+
+    .mobile, .phone img, .main-nav i, .reserve {
+        display: none;
+    }
+
+    .tablet-container {
+        margin-left: 10rem;
+    }
+
+    .tablet a {
+        float: right;
+        padding: .5rem 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .tablet-contact {
+        margin-top: 1rem;
+        padding-left: 2rem;
+    }
+
+    .border-nav {
+        border-left: white solid 1px;
+    }
+
+    /*Logo and Feature Section*/
+    .tagline {
+        position: absolute;
+        margin: 30% 10%;
+        text-align: center;
+        font-family: "Gill Sans", sans-serif;
+        text-transform: uppercase;
+    }
+
+    .tagline, blockquote {
+        font-family: "Gill Sans", sans-serif;
+    }
+
+    .tagline p {
+        margin: .5rem;
+    }
+
+    .logo-img {
+        position: absolute;
+        background: none;
+        width: 52%;
+        padding-top: 2rem;
+    }
+
+    .feature-img {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    /*Navigation with Images*/
+    .main-body article {
+        float: left;
+        width: 32%;
+        margin: 5px;
+        font-size: .8em;
+    }
+
+    .main-body img {
+        height: 100%;
+        width: 100%;
+    }
+
+    /*Navigation w/out Images*/
+    .no-image-nav a {
+        float: left;
+        width: 30%;
+        margin-left: 1.2rem;
+        text-align: center;
+    }
+
+    /*Social*/
+    .social-icons img {
+        width: 4rem;
+        margin: 2rem;
+    }
+
+    .social-nav ul {
+        padding: 0;
+    }
+
+    /*Footer*/
+    footer {
+        padding-top: 2rem;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+/***************Desktop****************/
+@media screen and (min-width: 1024px) {
+    /*Top Bar + Navigation*/
+    .desktop, .reserve {
+        display: inline;
+    }
+
+    .desktop a {
+        float: right;
+        padding: .5rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .tablet-container, .tablet-contact {
+        display: none;
+    }
+    
+    /*Logo and Feature Section*/
+    .logo-img {
+        max-width: 580px;
+        padding-top: 4%;
+    }
+
+    .tagline {
+        margin-left: 17%;
+    }
+
+    /*Main Body*/
+    .no-image-nav {
+        display: none;
+    }
+
+   blockquote {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.5em;
+        line-height: 2em;
+    }
+
+    .reserve p {
+        padding: .75rem;
+        font-size: 1.3em;
+    }
+}
+
+https://github.com/angiediedrich/IDM-6660-20-SP17-DIEDRICH-ANGIE

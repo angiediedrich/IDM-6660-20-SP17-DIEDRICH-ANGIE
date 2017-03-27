@@ -96,18 +96,12 @@ p {
   margin-bottom: 1rem; }
 
 @media screen and (min-width: 600px) {
-  html {
-    font-size: 16px; }
-
   section {
     width: 600px; }
 
   header {
-    background-color: #111;
-    color: white;
     letter-spacing: 1px;
-    text-align: center;
-    font-family: "nosifer", cursive; }
+    text-align: center; }
 
   h1 {
     font-size: 3.25em;
@@ -116,6 +110,37 @@ p {
   h2 {
     font-size: 2em;
     color: #ddd;
-    letter-spacing: 2px; } }
+    letter-spacing: 2px; }
+
+  p {
+    font-size: 1.25em;
+    line-height: 2.21rem;
+    margin-bottom: 1.5rem; } }
+@media screen and (min-width: 768px) {
+  html {
+    background-color: black;
+    margin: auto; }
+
+  section {
+    width: 768px;
+    background-color: #ddd; }
+
+  header {
+    background-color: black;
+    letter-spacing: 1px;
+    text-align: center; }
+
+  h1 {
+    font-size: 4.25em;
+    line-height: 5.1rem; }
+
+  h2 {
+    font-size: 2em;
+    letter-spacing: 2px; }
+
+  p {
+    font-size: 1.3em;
+    line-height: 2.38rem;
+    margin-bottom: 1.5rem; } }
 
 /*# sourceMappingURL=css.css.map */

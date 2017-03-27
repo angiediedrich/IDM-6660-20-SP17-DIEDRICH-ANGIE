@@ -74,20 +74,13 @@ p {
 
 @media screen and (min-width: 600px) {
 
-	html {
-		font-size: 16px;
-	}
-
 	section {
 		width: $tablet-content-width;
 	}
 
 	header {
-		background-color: $black;
-		color: white;
 		letter-spacing: 1px;
 		text-align: center;
-		font-family: $header-font;
 	}
 
 	h1 {
@@ -100,10 +93,45 @@ p {
 		color: #ddd;
 		letter-spacing: 2px;
 	}
+
+	p {
+		font-size: 1.25em;
+		line-height: $line-height * 1.3;
+		margin-bottom: 1.5rem
+	}
 }
 
 @media screen and (min-width: 768px) {
+	html {
+		background-color: black;
+		margin: auto;
+	}
+
 	section {
-		
+		width: $laptop-content-width;
+		background-color: #ddd;
+
+	}
+
+	header {
+		background-color: black;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 4.25em;
+		line-height: $line-height * 3;
+	}
+
+	h2 {
+		font-size: 2em;
+		letter-spacing: 2px;
+	}
+
+	p {
+		font-size: 1.3em;
+		line-height: $line-height * 1.4;
+		margin-bottom: 1.5rem
 	}
 }

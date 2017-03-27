@@ -1,5 +1,36 @@
 @media screen and (min-width: 768px) {
+	html {
+		background-color: black;
+		margin: auto;
+	}
+
 	section {
-		
+		width: $laptop-content-width;
+		background-color: #ddd;
+
+	}
+
+	header {
+		background-color: black;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 4.25em;
+		line-height: $line-height * 3;
+		margin-top: 1rem;
+	}
+
+	h2 {
+		font-size: 2em;
+		letter-spacing: 2px;
+		margin: 1rem
+	}
+
+	p {
+		font-size: 1.4em;
+		line-height: $line-height * 1.5;
+		margin: 0 1.5rem 2rem 1.5rem;
 	}
 }

@@ -1,0 +1,88 @@
+@import "vars";
+@import "reset";
+@import "mobile";
+@import "tablet";
+@import "laptop";
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+$line-height: 1.5rem;
+
+$mobile-content-width: 400px;
+$tablet-content-width: 600px;
+$laptop-content-width: 768px;
+
+$header-font: "nosifer", cursive;
+$author-font: "special elite", cursive;
+$copy-font: "Open Sans", sans-serif;
+
+$black: #111;
+
+html {
+	font-size: 12px;
+}
+
+body {
+	color: black;
+	font-family: $copy-font;
+	line-height: $line-height;
+	width: 100%;
+}
+
+section {
+	width: $mobile-content-width;
+}
+
+header {
+	background-color: $black;
+	color: white;
+	letter-spacing: 1px;
+	text-align: center;
+	font-family: $header-font;
+}
+
+h1 {
+	font-size: 2.25em;
+	font-family: $header-font;
+	line-height: $line-height * 2;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-family: $author-font;
+}
+
+@media screen and (min-width: 600px) {
+
+	html {
+		font-size: 16px;
+	}
+
+	section {
+		width: $tablet-content-width;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h2 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	section {
+		
+	}
+}

@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+html {
+  font-size: 12px; }
+
+body {
+  color: #111;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5rem;
+  width: 100%; }
+
+section {
+  width: 400px; }
+
+header {
+  background-color: #111;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "nosifer", cursive; }
+
+h1 {
+  font-size: 2.25em;
+  font-family: "nosifer", cursive;
+  line-height: 3rem; }
+
+h2 {
+  font-size: 1.5em;
+  font-family: "special elite", cursive; }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 16px; }
+
+  section {
+    width: 600px; }
+
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 2em; } }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+html {
+  font-size: 12px; }
+
+body {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5rem;
+  width: 100%; }
+
+section {
+  width: 400px; }
+
+header {
+  background-color: #111;
+  color: white;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "nosifer", cursive; }
+
+h1 {
+  font-size: 2.25em;
+  font-family: "nosifer", cursive;
+  line-height: 3rem; }
+
+h2 {
+  font-size: 1.5em;
+  font-family: "special elite", cursive; }
+
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 16px; }
+
+  section {
+    width: 600px; }
+
+  h1 {
+    font-size: 3em; }
+
+  h2 {
+    font-size: 2em; } }
+
+/*# sourceMappingURL=css.css.map */

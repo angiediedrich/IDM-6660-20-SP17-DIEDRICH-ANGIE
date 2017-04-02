@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+html {
+  background-color: #ddd;
+  color: #111;
+  font-family: "Quattrocento", serif;
+  font-size: 12px;
+  line-height: 18px; }
+
+body {
+  margin: 0;
+  padding: 1.5rem 0;
+  width: 100%; }
+  body > * {
+    margin: 0 auto 1.5rem;
+    width: 93.75%; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 1.5rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", sans-serif; }
+
+h1 {
+  font-size: 2.25em;
+  line-height: 3rem; }
+
+@media screen and (min-width: 480px) {
+  body > * {
+    max-width: 460px; } }
+
+/*# sourceMappingURL=css.css.map */

@@ -1,14 +1,14 @@
 html {
-  background-color: $silver;
+  background-color: $white;
   color: $black;
   font-family: $copy-font;
   font-size: $font-size-base;
-  line-height: $font-size-base * 1.5;
+  line-height: $font-size-base * 2;
 }
 
 body {
   margin: 0;
-  padding: $line-height 0;
+  padding-top: $line-height * 2;
   width: 100%;
 
   > * {
@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: $header-font;
 }
 
-
-
 h1 {
-  font-size: 2.25em;
+  font-size: 2.5em;
+  text-align: center;
   line-height: $line-height * 2;
+  margin-bottom: $line-height * 1.5;
 }

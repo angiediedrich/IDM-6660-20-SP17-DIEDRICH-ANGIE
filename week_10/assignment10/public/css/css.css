@@ -33,9 +33,39 @@ h1 {
   line-height: 3rem;
   margin-bottom: 2.25rem; }
 
-@media screen and (min-width: 480px) {
-  body > * {
-    max-width: 460px; } }
+@media screen and (min-width: 770px) {
+  html {
+    max-width: 1000px;
+    margin: auto; }
+
+  h1 {
+    font-size: 48px;
+    padding: 3rem;
+    margin-bottom: 0;
+    background-color: #2ecc40; }
+
+  .dropdown .menu-controller-checkbox ~ ul {
+    max-height: none;
+    overflow: visible; }
+  .dropdown .menu-controller-label {
+    display: none;
+    visibility: hidden;
+    max-height: 0; }
+  .dropdown ul {
+    position: relative;
+    height: 5.25rem;
+    margin-top: 0;
+    background-color: #7fdbff; }
+    .dropdown ul a {
+      font-size: 18px; }
+    .dropdown ul li {
+      text-decoration: underline;
+      display: inline-block;
+      margin: 0 1rem 2rem 0;
+      padding: 1rem;
+      text-align: center;
+      width: 15%;
+      float: left; } }
 .menu-controller-checkbox {
   display: none; }
 

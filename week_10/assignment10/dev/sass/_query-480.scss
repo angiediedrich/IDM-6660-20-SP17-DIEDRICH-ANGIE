@@ -1,10 +1,49 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 770px) {
 
-  body {
-
-    > * { max-width: 460px; }
-
+  html {
+    max-width: 1000px;
+    margin: auto;
   }
 
+  h1 {
+    font-size: $font-size-base * 4;
+    padding: 3rem;
+    margin-bottom: 0;
+    background-color: $green;
+  }
 
+  .dropdown {
+    .menu-controller-checkbox ~ ul {
+      max-height: none;
+      overflow: visible;
+    }
+
+    .menu-controller-label {
+      display: none;
+      visibility: hidden;
+      max-height: 0;
+    }
+
+    ul {
+      position: relative;
+      height: $line-height * 3.5;
+      margin-top: 0;
+      background-color: $aqua;
+
+      a {
+        font-size: $font-size-base * 1.5;
+
+      }
+
+      li {
+        text-decoration: underline;
+        display: inline-block;
+        margin: 0 1rem 2rem 0;
+        padding: 1rem;
+        text-align: center;
+        width: 15%;
+        float: left;
+      }
+    }
+  }
 }

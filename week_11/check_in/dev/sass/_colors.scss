@@ -1,0 +1,21 @@
+body {
+
+  background-color: $color-one;
+
+  @include phablet {
+    background-color: $color-two;
+  }
+
+  @include tablet {
+    background-color: $color-three;
+  }
+
+  @include laptop {
+    background-color: $color-four;
+  }
+
+  @include desktop {
+    background-color: $color-five;
+  }
+
+}
